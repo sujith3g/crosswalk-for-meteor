@@ -17,11 +17,12 @@ Steps for building apk
 10. ` cd .meteor/local/cordova-build/platforms/android/CordovaLib/`
 11.  replace `CordovaLib/src/org/apache/cordova/CordovaWebView.java` with `CordovaWebView.java` file provided in this repo
 12. ` android update project --subprojects --path . --target "android-21"`
-13. ` cd ..` move to .meteor/local/cordova-build/platforms/android/
-14. ` rm -Rf ant-gen;`
-15. ` rm -Rf ant-build;`
-16. add wifi permission `<uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />` to `.meteor/local/cordova-build/platforms/android/AndroidManifest.xml`  
-17. ` cd ../../` move to .meteor/local/cordova-build/
-18. `cordova build android` or `cordova build android --release`
-19. for signing & zipalign, follow [this](https://github.com/meteor/meteor/wiki/How-to-submit-your-Android-app-to-Play-Store) after release build.
+13. ` ant debug`
+14. ` cd ..` move to .meteor/local/cordova-build/platforms/android/
+15. ` rm -Rf ant-gen;`
+16. ` rm -Rf ant-build;`
+17. add wifi permission `<uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />` to `.meteor/local/cordova-build/platforms/android/AndroidManifest.xml`  
+18. ` cd ../../` move to .meteor/local/cordova-build/
+19. `cordova build android` or `cordova build android --release`
+20. for signing & zipalign, follow [this](https://github.com/meteor/meteor/wiki/How-to-submit-your-Android-app-to-Play-Store) after release build.
 
