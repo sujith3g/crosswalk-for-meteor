@@ -24,5 +24,5 @@ Steps for building apk
 17. add wifi permission `<uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />` to `.meteor/local/cordova-build/platforms/android/AndroidManifest.xml`  
 18. ` cd ../../` move to .meteor/local/cordova-build/
 19. `cordova build android` or `cordova build android --release`
-20. for signing & zipalign, follow [this](https://github.com/meteor/meteor/wiki/How-to-submit-your-Android-app-to-Play-Store) after release build.
+20. for signing & zipalign, follow [this](http://developer.android.com/tools/publishing/app-signing.html#signing-manually) after release build.
 
