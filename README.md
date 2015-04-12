@@ -1,7 +1,7 @@
 Crosswalk-for-meteor
 =====================
 
-A documentation on how to build android app from meteor using `crosswalk-11.40.277.1-arm`. This steps I found fromhere [here](http://pt.stackoverflow.com/questions/53282/plugin-de-splashcreen-cordova-e-%C3%ADcones-n%C3%A3o-funcionam-no-crosswalk). Here we will be replacing the `src/org/apache/cordova/CordovaWebView.java` file. 
+A documentation on how to build android app from meteor using `crosswalk-11.40.277.1-arm`. This steps I found from [here](http://pt.stackoverflow.com/questions/53282/plugin-de-splashcreen-cordova-e-%C3%ADcones-n%C3%A3o-funcionam-no-crosswalk). In which we will be replacing the `src/org/apache/cordova/CordovaWebView.java` file. 
 Steps for building apk
 ----------------------
 
