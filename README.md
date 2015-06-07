@@ -12,8 +12,8 @@ Steps for building apk
 5. ` unzip crosswalk-11.40.277.1.zip`
 6. ` cd ..`  move to meteor_app/ directory
 7. ` rm -Rf .meteor/local/cordova-build/platforms/android/CordovaLib/*`
-8. ` cp -a crosswalk-11.40.277.1/crosswalk-arm/framework/* .meteor/local/cordova-build/platforms/android/CordovaLib/`
-9. ` cp -a crosswalk-11.40.277.1/crosswalk-arm/VERSION .meteor/local/cordova-build/platforms/android/`
+8. ` cp -a .build-tools/crosswalk-11.40.277.1/crosswalk-arm/framework/* .meteor/local/cordova-build/platforms/android/CordovaLib/`
+9. ` cp -a .build-tools/crosswalk-11.40.277.1/crosswalk-arm/VERSION .meteor/local/cordova-build/platforms/android/`
 10. ` cd .meteor/local/cordova-build/platforms/android/CordovaLib/`
 11.  replace `CordovaLib/src/org/apache/cordova/CordovaWebView.java` with `CordovaWebView.java` file provided in this repo
 12. ` android update project --subprojects --path . --target "android-21"`
